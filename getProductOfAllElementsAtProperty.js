@@ -9,6 +9,8 @@ function getProductOfAllElementsAtProperty(obj, key) {
   return 0;
  }
 
+} // Hizo falta la llave de cierre de la función
+
 /*    Escriba una función llamada getProductOfAllElementsAtProperty.
 Dado un objeto y una key, getProductOfAllElementsAtProperty devuelve el producto de todos los elementos del array.
 
@@ -22,3 +24,8 @@ key: [1, 2, 3, 4];
 };
 var output = getProductOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 24   */
+
+var obj = {
+  key: [1, 2, 3, 4]
+  };
+console.log("resultado", getProductOfAllElementsAtProperty(obj, 'key'));
